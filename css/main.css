@@ -54,6 +54,24 @@ p {
 	margin-bottom: 1em; 
 }
 
+.red {
+  color: #ff0000;
+  display: inline-block;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+
+.red:after {
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 2px;
+  width: 100%;
+  background-color: #ff0000;
+}
+
 /* =================================
   TOP NAVIGATION
    ============================== */
@@ -106,7 +124,7 @@ p {
 }
 
 /* =================================
-  WRAPPERS, SECTIONS
+  WRAPPERS, SECTIONS, ROWS
    ============================== */
 
 .wrapper {
@@ -118,6 +136,22 @@ p {
 
 section {
 	padding: 1em;
+}
+
+.red-bg {
+  background-color: rgba(246, 60, 60, 1);
+  color: #fff;
+  text-align: center;
+  padding: 2em 0;
+}
+
+#contact h1 {
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+
+.row {
+  margin-bottom: 1em;
 }
 
 /* =================================
