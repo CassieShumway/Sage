@@ -45,7 +45,9 @@ h2 {
 	font-size: 1.3em;
 }
 
-a { text-decoration: none; }
+a { 
+  text-decoration: none; 
+}
 
 p { 
 	font-size: 13px;
@@ -80,7 +82,7 @@ p {
   display: block;
   height: 3px;
   width: 100%;
-  background-color: #ff0000;
+  background-color: rgba(246, 60, 60, 1);
   margin-top: 14px;
   position: absolute;
   vertical-align: middle;
@@ -166,6 +168,50 @@ header p {
 
 #portfolio article:last-child {
   margin-right: 0;
+}
+
+#portfolio article:hover {
+
+}
+
+#portfolio figure {
+  position: relative;
+}
+
+#portfolio figcaption {
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  // pointer-events: none;
+}
+
+#portfolio figcaption:hover {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  position: absolute;
+  display: block;
+  background-color: rgba(246, 60, 60, .7);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  transition: opacity 300ms cubic-bezier(.215,.61,.355,1);
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 35%;
 }
 
 #portfolio p {
