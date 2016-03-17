@@ -115,7 +115,7 @@ p {
 }
 
 section {
-	padding: 1em 0;
+	padding: 1em;
 }
 
 /* =================================
@@ -131,7 +131,7 @@ header {
   background-image: url("../img/background.png");
   background-position: center;
   color: #fff;
-  padding: 8em;
+  padding: 8em 1em;
   text-align: center;
   width: 100%;
 }
@@ -145,12 +145,13 @@ header p {
 
 .btn {
 	background-color: #fff;
+  color: #666;
 	display: inline-block;
   font-family: "Teko", sans-serif;
   font-size: 12px;
+  letter-spacing: 1px;
 	padding: 5px 40px;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 /* =================================
@@ -159,8 +160,12 @@ header p {
 
 #portfolio article {
 	float: left;
-	padding: 1em;
-	width:50%;
+	width: 49%;
+  margin-right: 2%;
+}
+
+#portfolio article:last-child {
+  margin-right: 0;
 }
 
 #portfolio p {
@@ -168,6 +173,17 @@ header p {
   max-width: 350px;
   margin: 0 auto;
   text-align: center;
+}
+
+/* =================================
+  MEDIA QUERIES
+   ============================== */
+
+@media (max-width: 780px ){
+  #portfolio article {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 /* =================================
