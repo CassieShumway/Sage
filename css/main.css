@@ -43,6 +43,7 @@ h1 {
 
 h2 {
 	font-size: 1.3em;
+  margin: 0.5em 0 1em;
 }
 
 a { 
@@ -50,7 +51,7 @@ a {
 }
 
 p { 
-	font-size: 13px;
+	font-size: 12px;
 	margin-bottom: 1em; 
 }
 
@@ -58,6 +59,7 @@ p {
   color: #ff0000;
   display: inline-block;
   font-family: "Teko", sans-serif;
+  font-size: 14px;
   letter-spacing: 1px;
   margin-top: 2em;
   text-transform: uppercase;
@@ -254,6 +256,67 @@ header p {
   margin: 0 auto;
   text-align: center;
 }
+
+/* =================================
+  FOOTER
+   ============================== */
+footer {
+  padding: 1em 0;
+}
+
+footer h1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+footer ul {
+  margin: 1.5em 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+footer li a {
+  font-family: "Teko", sans-serif;
+  background: #30282a;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 75px;
+  height: 95px;
+  padding: 3.6em 3em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 130px;
+  font-size: 13px;
+}
+
+footer i {
+  position: absolute;
+  line-height: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+   -webkit-transform: translateX(-50%) translateY(-50%); 
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+footer .fa {
+  font-size: 1.7em;
+}
+
+.footer-social-icons a:hover {
+  background-color:  #ccc;
+  color: #252729;
+}
+
+small { font-size: 10px;}
 
 /* =================================
   MEDIA QUERIES
