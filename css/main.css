@@ -55,30 +55,11 @@ p {
 	margin-bottom: 1em; 
 }
 
-.red {
-  color: #ff0000;
-  display: inline-block;
-  font-family: "Teko", sans-serif;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-top: 2em;
-  text-transform: uppercase;
-}
-
-.red:after {
-  content: "";
-  display: block;
-  height: 2px;
-  margin-top: 2px;
-  width: 100%;
-  background-color: #ff0000;
-}
-
 /* =================================
   TOP NAVIGATION
    ============================== */
 
- .logo { max-width: 54px;}
+.logo { max-width: 54px;}
 
 #top-nav {
   background: #fff;
@@ -138,9 +119,7 @@ p {
 	position: relative;
 }
 
-section {
-	padding: 1em;
-}
+section { padding: 1em; }
 
 .red-bg {
   background-color: rgba(246, 60, 60, 1);
@@ -154,9 +133,7 @@ section {
   letter-spacing: 1px;
 }
 
-.row {
-  margin-bottom: 1em;
-}
+.row { margin-bottom: 1em; }
 
 /* =================================
   HEADER
@@ -204,17 +181,8 @@ header p {
   margin-right: 2%;
 }
 
-#portfolio article:last-child {
-  margin-right: 0;
-}
-
-#portfolio article:hover {
-
-}
-
-#portfolio figure {
-  position: relative;
-}
+#portfolio article:last-child { margin-right: 0; }
+#portfolio figure { position: relative; }
 
 #portfolio figcaption {
   display: block;
@@ -259,12 +227,29 @@ header p {
   text-align: center;
 }
 
+.red-underline {
+  color: #ff0000;
+  display: inline-block;
+  font-family: "Teko", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+
+.red-underline:after {
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 2px;
+  width: 100%;
+  background-color: #ff0000;
+}
+
 /* =================================
   FOOTER
    ============================== */
-footer {
-  padding: 1em 0;
-}
+footer { padding: 1em 0; }
 
 footer h1 {
   font-size: 2em;
@@ -272,9 +257,7 @@ footer h1 {
   text-align: left;
 }
 
-footer ul {
-  margin: 1.5em 0;
-}
+footer ul { margin: 1.5em 0; }
 
 footer li {
   display: inline-block;
@@ -309,9 +292,7 @@ footer i {
   transform: translateX(-50%) translateY(-50%);
 }
 
-footer .fa {
-  font-size: 1.7em;
-}
+footer .fa { font-size: 1.7em; }
 
 .footer-social-icons a:hover {
   background-color:  #ccc;
