@@ -214,8 +214,13 @@ header p {
 
 .center {
   position: absolute;
-  top: 40%;
-  left: 35%;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 17%;
+  padding-bottom: 37%;
 }
 
 #portfolio p {
@@ -306,7 +311,7 @@ small { font-size: 10px;}
 @media (max-width: 780px ){
   header{ padding: 2em 1em; }
   h1 { font-size: 3em;}
-
+ 
   #portfolio article {
     width: 100%;
     margin-right: 0;
